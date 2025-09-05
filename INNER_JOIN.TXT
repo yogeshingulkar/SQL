@@ -44,6 +44,7 @@ MILLER           1300 NEW YORK
 
 14 rows selected.
 
+
 SQL> SELECT E.ENAME, E.DEPTNO, D.DNAME
   2  FROM EMP E
   3  INNER JOIN DEPT D ON E.DEPTNO = D.DEPTNO;
@@ -470,5 +471,6 @@ FORD       RESEARCH
 MILLER     ACCOUNTING
 
 13 rows selected.
+
 
 SQL> 
